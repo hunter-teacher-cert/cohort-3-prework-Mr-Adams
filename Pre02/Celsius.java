@@ -6,7 +6,7 @@ public class Celsius {
   public static void main(String[] args) {
     double celsius , fahrenheit;
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter degress in Celsius ");
+    System.out.print("Enter degress in Celsius: ");
     celsius = in.nextDouble();
     fahrenheit = celsius * (9.0/5.0) + 32.0;
     System.out.println(celsius + " C = " + fahrenheit + " F");
