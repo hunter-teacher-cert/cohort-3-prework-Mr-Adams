@@ -19,7 +19,7 @@ public class Max {
  public static int indexOfMaxenhancedforloop(int[] testarray){
    int maxitemindex = 0;
    int i = 0;    
-    for(int test : testarray){
+    for(int number : testarray){
             if(testarray[i] > testarray[maxitemindex]){
         maxitemindex = i;
           }
