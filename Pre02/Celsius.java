@@ -9,6 +9,7 @@ public class Celsius {
     System.out.print("Enter degress in Celsius: ");
     celsius = in.nextDouble();
     fahrenheit = celsius * (9.0/5.0) + 32.0;
-    System.out.println(celsius + " C = " + fahrenheit + " F");
+        in.nextLine();
+    System.out.println(celsius + " C " + fahrenheit + " F");
     }
 }
